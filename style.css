@@ -1,0 +1,181 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0; }
+   
+   
+            .top {
+                display: flex;
+                background-color: rgb(11, 11, 34);
+                width: auto;
+            }
+        
+            .logo{
+                height: 100px;
+                background-color: rgb(122, 98, 175);
+                border-radius: 50%;
+              
+            }
+            h1{
+            margin: auto;
+            font-size: 28px;
+            color: white;
+            }  
+            .middle-content{
+              display: grid;
+              grid-template-columns: 1fr 2fr 1fr;
+              grid-gap: 100px;
+            }         
+            
+     .results {
+              padding: 3rem 0;
+            background-color: rgb(201, 198, 198);
+            width: 300px;
+            height: 150vh;
+            
+            
+           }
+              .results__list{
+                  list-style: none;
+              }
+              .results__link:link, .results__link:visited {
+                display: flex;
+                align-items: center;
+                padding: 1.5rem 3rem;
+                transition: all .3s;
+                border-right: 1px solid #fff;
+                text-decoration: none; }
+              .results__link:hover,
+              
+              .results__link--active {
+                background-color: #979594; }
+               
+                .results__fig {
+    
+    flex: 0 0 5.5rem;
+    
+    height: 8rem;
+    margin-right: 2rem;
+    position: relative;
+    backface-visibility: hidden; }
+    .results__fig img
+     {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all .3s; }
+
+
+      .results__name
+   {
+    font-size: 16px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .3rem; }
+
+
+    .middle-part{
+      margin-left: 40%;
+      margin-right: 30%;
+      padding: 15px;
+      
+    }
+
+    .search input{
+      border-radius: 10px;
+      height: 40px;
+      width: 500px;
+      color: rgb(19, 18, 18);
+      background-color: black;
+      color: white;
+    }
+    ::placeholder {
+      color: white;
+    }
+  .search {
+    display: flex;
+    
+  }
+  .search button{
+margin-left: 20px;
+border-radius: 10px;
+width: 150px;
+background-color: rgb(243, 236, 236);
+font-size: 18px;
+  }
+
+  .movies-result {
+    background-color: white;
+    border-top: 1px solid #fff;
+    width: 600px;
+    
+  }
+   .img-fig{
+    height: 28rem;
+    position: relative;
+    transform: scale(1.04) translateY(-1px);
+    transform-origin: top;
+    
+  }
+  .movie-img{
+    width: 90%;
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+  }
+  .info{
+    font-size: 20px;
+    
+    
+  }
+.my-list{
+  width: 250px;
+  height: 150vh;
+  background-color: rgb(54, 53, 53);
+  
+  
+}
+.add{
+  margin-left: 30%;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  height: 35px;
+  width: 200px;
+}
+.heading-top{
+  text-align: center;
+  color: white;
+}
+.lists{
+  margin-top: 20px;
+  display: grid;
+  color: rgb(238, 235, 235);
+  
+}
+.lists h3{
+  border-top: 1px solid rgb(238, 235, 235);
+  border-bottom: 1px solid rgb(211, 208, 208);
+  margin-top: 15px;
+
+}
+ion-icon {
+  color: rgb(7, 1, 17);
+  display: inline-block;
+  font-size: 16px;
+  
+  
+}
+
+.icons {
+  
+  background-color: gray;
+}
