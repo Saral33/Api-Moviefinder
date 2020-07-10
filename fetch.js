@@ -7,7 +7,7 @@ class Search{
  async getResults(){
     const key = '36b63494';
     
-    const res = await fetch(`http://www.omdbapi.com/?s=${this.query}&apikey=${key}`);
+    const res = await fetch(`https://www.omdbapi.com/?s=${this.query}&apikey=${key}`);
     const data= await res.json();
     this.movieResults = data.Search;
     //console.log(this.movieResults);
@@ -22,7 +22,7 @@ class Control{
    async getMovies(){
 
    const key = '36b63494';
-   const res = await fetch (`http://www.omdbapi.com/?i=${this.id}&apikey=${key}`);
+   const res = await fetch (`https://www.omdbapi.com/?i=${this.id}&apikey=${key}`);
    const data = await res.json();
   this.title= data.Title;
   this.year= data.Year;
